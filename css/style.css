@@ -1,0 +1,357 @@
+
+
+
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background: #111216;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif; 
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.section-padding-top {
+ padding-top: 100px;
+}
+
+
+.section-padding-bottom {
+  padding-bottom: 100px;
+}
+.container-fluid {
+	width: 1300px;
+	padding: 0 15px;
+	margin: 0 auto;
+  background-color: #14161d;
+  border: 1px solid #1e2029;
+}
+
+
+.section-title  {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+span {
+  color: #82c6e9;
+  font-size: 14px;
+}
+
+
+/* ..................................
+ 01. header CSS 
+.................................. */
+
+.logo-header {
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-header .logo {
+  display: flex;
+  padding: 5px 8px;
+  
+}
+
+.logo img {
+  width: 150px;
+  height: 42px;
+  margin-left: -40px;
+  
+}
+
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+  width: 60%;
+  float: left;
+  padding-left: 100px;
+}
+
+
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+  width: 60%;
+  float: left;
+  padding-left: 100px;
+
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.logo-header .search-box-view .email {
+  position: relative;
+  width: calc(100% - 50px);
+  float: left;
+  height: 38px;
+  font-size: 11px;
+  color: #333;
+  background: #f6f6f6;
+  line-height: 45px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+
+}
+
+.logo-header .search-box-view .email::placeholder {
+  text-indent: 15px;
+  font-weight: lighter;
+  font-size: 15px;
+
+}
+
+
+/* .logo-header .search-box-view .submit {
+  width: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  float: left;
+  background: #7cbcde;
+  color: #f6f6f6;
+  height: 38px;
+  line-height: 45px;
+  text-transform: capitalize;
+  padding-right: 1px;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 8px;
+}
+
+.logo-header .search-box-view .email .submit i {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 2px;
+}
+
+i.fas.fa-search {
+  position: relative;
+  top: -3px;
+} */
+
+/* .header .read-org-app {
+  float: left;
+  display: inline-block;
+} */
+
+
+/* 
+    .header .read-org-app i {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 22px;
+      color: rgb(255, 255, 255);
+      background: transparent;
+      margin-left: -32px;
+  } */
+
+
+
+
+.button {
+  margin-left: 100px;
+}
+
+a.anchor-button {
+  padding: 5px 20px;
+  border: 0px solid;
+  background: #1e2029;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+
+
+
+/* ..................................
+ 01. menu CSS 
+.................................. */
+.menu{
+  border-right: 1px solid #333;
+}
+.menu h5 {
+  color:#82c6e9;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+li.nav-item {
+  font-size: 14px;
+  color: #ffff;
+}
+
+li.nav-item a {
+  color: #ffff;
+  text-transform: capitalize;
+
+}
+li.nav-item a:hover {
+  color: #75badf;
+  transition: .5s;
+  cursor: pointer;
+ 
+}
+
+
+
+/* ..................................
+ 01.manga CSS 
+.................................. */
+
+ #mangas {
+  /* display: flex; */
+  margin-top: 1rem;
+  
+}
+
+ .manga {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}  
+
+/* .mangas-item {
+  width: 250px;
+  height: 54px;
+  pad
+} */
+
+.mangas-img img {
+  height: 200px;
+  width: 250px;
+}
+
+
+.mangas-info h5 {
+  color: #fff;
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+
+.mangas-info span i {
+  font-size: 13px;
+}
+
+
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+ .new-manga, .popular-comics {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}  
+
+.new-mangas-img img {
+  height: 200px;
+  width: 160px;
+  
+}
+
+
+
+
+
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+.panel-primary>.panel-heading {
+    color: #fff;
+    height: 50px;
+    background-color: #337ab7;
+    border:1px solid #1e2029;
+}
+
+.panel-heading{
+ 
+  color: #fff;
+}
+.panel-body b{
+  color: #fff;
+ 
+}
+.panel-body p{
+ 
+  padding-left:12px;
+  color: #fff;
+}
+
+
+
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */

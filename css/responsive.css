@@ -1,0 +1,98 @@
+/* ==============
+     responsive-css 
+==================*/
+
+
+/*=============== RESPONSIVE ===============*/
+
+
+/* MOBILE DEVISE  */
+
+@media only screen and (min-width:0px) and (max-width:668px){
+
+  .menu{
+    display: none;
+  }
+  li.nav-item {
+  display: none;
+  }
+  
+
+
+    .manga {
+    
+        grid-template-columns: repeat(1, 1fr);
+     
+      } 
+      .mangas-img img {
+        height: 200px;
+        width: 250px;
+      }
+      
+  
+    .new-manga {
+     
+        grid-template-columns: repeat(2, 1fr);
+        
+      }  
+      
+  
+  }
+  
+  
+  /* tablat DEVISE  */
+  
+  @media only screen and (min-width:688px) and (max-width:992px) {
+  
+  
+    .manga {
+      grid-template-columns: repeat(2, 1fr);
+   
+    } 
+
+  .new-manga {
+   
+      grid-template-columns: repeat(2, 1fr);
+      
+    }  
+    
+
+}
+
+  
+  
+  /* laptop DEVISE  */
+  
+  @media only screen and (min-width:992px) and (max-width:1199px) {
+  
+  
+    .manga {
+      grid-template-columns: repeat(2, 1fr);
+   
+    } 
+
+  .new-manga {
+   
+      grid-template-columns: repeat(2, 1fr);
+      
+    } 
+    
+    
+      
+  
+    }
+  
+  }
+  /* large DEVISE  */
+  
+  @media only screen and (min-width:1200px) and (max-width:1697px) {
+  
+  
+  
+    
+      
+     
+    
+    }
+  
+  }
