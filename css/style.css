@@ -15,8 +15,12 @@
  01. Template Default CSS 
 .................................. */
 *{
-  margin: 0;
-  padding: 0;
+	margin: 0;
+ 	padding: 0;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+  
 }
 
 
@@ -38,6 +42,14 @@ h6 {
   text-transform: uppercase;
   color: #fff;
 }
+
+
+a {
+    text-decoration: none;
+    color: #ffff;
+	font-size: 14px;
+}
+
 
 
 .section-padding-top {
@@ -245,6 +257,11 @@ li.nav-item a:hover {
   margin-top: 1rem;
   
 }
+/* 
+.mangas-img-caurosol{
+	height: 400px;
+
+} */
 
  .manga {
   display: grid;
@@ -280,7 +297,7 @@ li.nav-item a:hover {
 /* ..................................
  01. Template Default CSS 
 .................................. */
- .new-manga, .popular-comics {
+ .new-manga, .popular-comics, .recently-comics {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 1rem;
@@ -300,9 +317,7 @@ li.nav-item a:hover {
 /* ..................................
  01. Template Default CSS 
 .................................. */
-/** ====================
- * Lista de Comentarios
- =======================*/
+
  .comments-container {
 	margin: 60px auto 15px;
 	width: 768px;
@@ -355,7 +370,7 @@ li.nav-item a:hover {
 .reply-list li:before {
 content: '';
 	width: 85px;
-	height: 2px;
+	/* height: 2px; */
 	background: #c7cacb;
 	position: absolute;
 	top: 70px;
@@ -540,6 +555,94 @@ content: '';
 }
 
 
+
+
+/*
+Footer Area Style
+======================================================*/
+.single-footer-widget {
+	margin-bottom: 24px;
+  }
+  
+  .single-footer-widget h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+  }
+  
+  .single-footer-widget ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+  }
+  ul.info-list{
+	  color: #fff;
+  }
+  
+  .single-footer-widget .info-list {
+	margin-bottom: 20px;
+  }
+  
+  .single-footer-widget .info-list li {
+	font-size: 14px;
+	position: relative;
+	padding-left: 4px;
+	margin-bottom: 17px;
+  }
+  
+  .single-footer-widget .info-list li:last-child {
+	margin-bottom: 0;
+  }
+
+
+
+  
+  .single-footer-widget .import-link li {
+	margin-bottom: 10px;
+  }
+  
+  .single-footer-widget .import-link li:last-child {
+	margin-bottom: 0;
+  }
+  
+  .single-footer-widget .app-btn {
+	margin-bottom: 20px;
+  }
+  
+  .single-footer-widget .app-btn li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  .single-footer-widget .app-btn li:last-child {
+	margin-right: 0;
+  }
+  
+  .single-footer-widget .app-btn li a img {
+	max-width: 115px;
+  }
+  
+  /*
+Copy Right Area Style
+======================================================*/
+.copy-right-area {
+	border-top: 1px solid #dddddd;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+  }
+  
+  .copy-right-area p  {
+	color: #ffff;
+  }
+  .copy-right-area p a {
+	color: #fff;
+	font-weight: 600;
+  }
+  
+  .copy-right-area p a:hover {
+	color: #03658c;
+  }
+ 
 
 /* ..................................
  01. Template Default CSS 
