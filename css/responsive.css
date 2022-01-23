@@ -10,6 +10,21 @@
 
 @media only screen and (min-width:0px) and (max-width:668px){
 
+  .container-fluid {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #14161d;
+    border: 1px solid #1e2029;
+}
+
+
+.logo-header .main-search-form {
+  width: 100%;
+  padding-left: 0px;
+}
+
+
   .menu{
     display: none;
   }
@@ -19,22 +34,32 @@
   
 
 
-    .manga {
-    
-        grid-template-columns: repeat(1, 1fr);
-     
-      } 
-      .mangas-img img {
-        height: 200px;
-        width: 250px;
-      }
+  .button {
+    display: none;
+  }
+
+/*     
+.new-mangas-img img {
+  height: 200px;
+  
+  width: 100%;
+} */
+
+.new-mangas-img img {
+  height: 200px;
+  /* width: 160px; */
+  width: 100%;
+}
+
+
       
   
-    .new-manga {
-     
-        grid-template-columns: repeat(2, 1fr);
-        
-      }  
+  .new-manga, .popular-comics, .recently-comics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }  
+   
       
   
   }
@@ -44,18 +69,40 @@
   
   @media only screen and (min-width:688px) and (max-width:992px) {
   
-  
-    .manga {
-      grid-template-columns: repeat(2, 1fr);
-   
-    } 
 
-  .new-manga {
-   
-      grid-template-columns: repeat(2, 1fr);
-      
+    .container-fluid {
+      max-width: 1300px;
+      padding: 0 15px;
+      margin: 0 auto;
+      background-color: #14161d;
+      border: 1px solid #1e2029;
+
+
+  }
+
+  
+
+  li.nav-item a {
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+
+
+    .new-manga, .popular-comics, .recently-comics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
     }  
     
+
+    .new-mangas-img img {
+      height: 200px;
+      width: 160px;
+      /* width: 100%; */
+  }
+
 
 }
 
@@ -65,24 +112,38 @@
   
   @media only screen and (min-width:992px) and (max-width:1199px) {
   
-  
-    .manga {
-      grid-template-columns: repeat(2, 1fr);
-   
-    } 
 
-  .new-manga {
-   
-      grid-template-columns: repeat(2, 1fr);
-      
-    } 
+    .container-fluid {
+      max-width: 1300px;
+      padding: 0 15px;
+      margin: 0 auto;
+      background-color: #14161d;
+      border: 1px solid #1e2029;
+  }
+
+  li.nav-item a {
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+
+  
+    .new-manga {
+      grid-template-columns: repeat(4, 1fr);
+  }
     
     
+  .new-mangas-img img {
+    height: 200px;
+    /* width: 160px; */
+    width: 100%;
+}
       
   
     }
   
-  }
+  
   /* large DEVISE  */
   
   @media only screen and (min-width:1200px) and (max-width:1697px) {
@@ -95,4 +156,4 @@
     
     }
   
-  }
+  
