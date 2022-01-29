@@ -8,7 +8,7 @@
 
 /* MOBILE DEVISE  */
 
-@media only screen and (min-width:0px) and (max-width:668px){
+@media only screen and (min-width:0px) and (max-width:480px){
 
   .container-fluid {
     max-width: 1300px;
@@ -60,6 +60,17 @@
     grid-gap: 1rem;
   }  
    
+
+  #slider {
+    position: relative;
+    width: 50%;
+    height: 20vw;
+    margin: 15px auto;
+    /* font-family: 'Helvetica Neue', sans-serif; */
+    perspective: 1400px;
+    transform-style: preserve-3d;
+    }
+  
       
   
   }
@@ -67,7 +78,7 @@
   
   /* tablat DEVISE  */
   
-  @media only screen and (min-width:688px) and (max-width:992px) {
+  @media only screen and (min-width:481px) and (max-width:767px) {
   
 
     .container-fluid {
@@ -81,6 +92,17 @@
   }
 
   
+  .menu{
+    display: none;
+  }
+  li.nav-item {
+  display: none;
+  }
+
+
+  
+
+
 
   li.nav-item a {
     color: #ffff;
@@ -104,13 +126,25 @@
   }
 
 
+  #slider {
+    position: relative;
+    width: 50%;
+    height: 22vw;
+    margin: 20px auto;
+    /* font-family: 'Helvetica Neue', sans-serif; */
+    perspective: 1400px;
+    transform-style: preserve-3d;
+    }
+
+
+
 }
 
   
   
   /* laptop DEVISE  */
   
-  @media only screen and (min-width:992px) and (max-width:1199px) {
+  @media only screen and (min-width:768px) and (max-width:991px) {
   
 
     .container-fluid {
@@ -124,7 +158,7 @@
   li.nav-item a {
     color: #ffff;
     text-transform: capitalize;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 
@@ -140,17 +174,78 @@
     width: 100%;
 }
       
+
+
+#slider {
+	position: relative;
+	width: 50%;
+	height: 18vw;
+	margin: 24px auto;
+	/* font-family: 'Helvetica Neue', sans-serif; */
+	perspective: 1400px;
+	transform-style: preserve-3d;
+  }
+
+
+
+  
+    }
+
+
+  /* laptop DEVISE  */
+  
+  @media only screen and (min-width:992px) and (max-width:1400px) {
+  
+
+    /* .container-fluid {
+      max-width: 1300px;
+      padding: 0 15px;
+      margin: 0 auto;
+      background-color: #14161d;
+      border: 1px solid #1e2029;
+  } */
+
+  li.nav-item a {
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+
+  
+    .new-manga {
+      grid-template-columns: repeat(4, 1fr);
+  }
+    
+    
+  .new-mangas-img img {
+    height: 200px;
+    /* width: 160px; */
+    width: 100%;
+}
+      
+
+#slider {
+	position: relative;
+	width: 50%;
+	height: 20vw;
+	margin: 15px auto;
+	/* font-family: 'Helvetica Neue', sans-serif; */
+	perspective: 1400px;
+	transform-style: preserve-3d;
+  }
+
+
   
     }
   
   
   /* large DEVISE  */
   
-  @media only screen and (min-width:1200px) and (max-width:1697px) {
+  @media only screen and (min-width:1401px) and (max-width:1697px) {
   
   
-  
-    
+ 
       
      
     

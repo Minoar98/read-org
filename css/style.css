@@ -9,7 +9,7 @@
   Google Fonts
 ==================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 
 /* ..................................
  01. Template Default CSS 
@@ -25,7 +25,7 @@
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Supermercado One', cursive;
     overflow-x: hidden;
     background: #111216;
 
@@ -36,13 +36,18 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Open Sans', sans-serif; 
+h6
+ {
+	font-family: 'Supermercado One', cursive;
 
   text-transform: uppercase;
   color: #fff;
 }
 
+/* p{
+
+	font-size: 14px;
+} */
 
 a {
     text-decoration: none;
@@ -66,6 +71,7 @@ a {
     margin: 0 auto;
     background-color: #14161d;
     border: 1px solid #1e2029;
+	
 }
 
 
@@ -75,9 +81,18 @@ a {
     color: #fff;
 }
 
+hr{
+	border: 1px solid #1e2029;
+}
+
 span {
   color: #82c6e9;
   font-size: 14px;
+}
+
+
+.color-imdb {
+	color: goldenrod;
 }
 
 
@@ -263,9 +278,9 @@ li.nav-item a:hover {
 #slider {
 	position: relative;
 	width: 50%;
-	height: 18vw;
-	margin: 17px auto;
-	font-family: 'Helvetica Neue', sans-serif;
+	height: 13vw;
+	margin: 12px 290px;
+	/* font-family: 'Helvetica Neue', sans-serif; */
 	perspective: 1400px;
 	transform-style: preserve-3d;
   }
@@ -743,6 +758,114 @@ Copy Right Area Style
 /* ..................................
  01. Template Default CSS 
 .................................. */
+
+/* 
+#content .page-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1.5px;
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+} */
+
+
+.ctg-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* padding-top: 239px; */
+}
+
+.ctg-section h1{
+	font-size: 24px;
+
+}
+select#orderby {
+	background-color: black;
+    color: #888;
+    border: 2px solid #a09f9f7e;
+    height: 30px;
+    width: 170px;
+}
+
+.blogs{
+	display: flex;
+}
+.blogs .thumbnail img{
+	max-width: 150px;
+    min-width: 150px;
+    height: 225px;
+    margin: 20px;
+    box-shadow: 0 20px 30px 0 rgb(0 0 0 / 80%);
+}
+.blogs .ctg-info {
+	margin-left: 16px;
+	margin-top: 22px;
+}
+
+.ctg-author{
+	color: #6d7080;
+    margin-top: 0.5rem;
+	font-size: 14px;
+}
+
+
+.media-meta{
+	margin-top: 0;
+    border-width: 0;
+    border-top-width: 1px;
+	border: 1px solid #1e2029;
+}
+
+.media-meta .ui.table {
+    background-color: transparent;
+    color: inherit;
+    border: 0;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+table, th, td {
+	border-style: 1px solid white;
+	border-collapse: collapse;
+  }
+
+.media-meta .ui.celled.table tr td, .media-meta .ui.celled.table tr th{
+	border-color: #1e2029;
+    padding: 13px 20px 15px;
+    transition: none;
+	margin-top: 10px;
+	border-style: none;
+}
+.media-meta .ui.celled.table tr td div:first-child, .media-meta .ui.celled.table tr th div:first-child {
+    color: #6d7080;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.media-meta .ui.celled.table tr td div:last-child, .media-meta .ui.celled.table tr th div:last-child {
+    font-size: 13px;
+    color: #fff;
+}
+
+.filter-results li .poster-with-subject {
+    display: flex;
+}
+/* 
+.ui.celled.table tr td:first-child, .ui.celled.table tr th:first-child {
+    border-right: 1px solid #dddddd;
+	height: 100px;
+} */
+
+.color-imdb {
+	color: goldenrod;
+}
 
 /* ..................................
  01. Template Default CSS 
