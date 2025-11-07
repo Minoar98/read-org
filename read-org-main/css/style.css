@@ -1,0 +1,892 @@
+
+/* font-family: 'Open Sans', sans-serif; */
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+*{
+	margin: 0;
+ 	padding: 0;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+  
+}
+
+
+body {
+	font-family: 'Supermercado One', cursive;
+    overflow-x: hidden;
+    background: #111216;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+	font-family: 'Supermercado One', cursive;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* p{
+
+	font-size: 14px;
+} */
+
+a {
+    text-decoration: none;
+    color: #ffff;
+	font-size: 14px;
+}
+
+
+
+.section-padding-top {
+ padding-top: 100px;
+}
+
+
+.section-padding-bottom {
+  padding-bottom: 100px;
+}
+.container-fluid {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #14161d;
+    border: 1px solid #1e2029;
+	
+}
+
+
+.section-title  {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+hr{
+	border: 1px solid #1e2029;
+}
+
+span {
+  color: #82c6e9;
+  font-size: 14px;
+}
+
+
+.color-imdb {
+	color: goldenrod;
+}
+
+
+/* ..................................
+ 01. header CSS 
+.................................. */
+
+.logo-header {
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-header .logo {
+  display: flex;
+  padding: 5px 8px;
+  
+}
+
+.logo img {
+  width: 150px;
+  height: 42px;
+  margin-left: -40px;
+  
+}
+
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+  width: 60%;
+  float: left;
+  padding-left: 100px;
+}
+
+
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+  width: 60%;
+  float: left;
+  padding-left: 100px;
+
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.logo-header .search-box-view .email {
+  position: relative;
+  width: calc(100% - 50px);
+  float: left;
+  height: 38px;
+  font-size: 11px;
+  color: #333;
+  background: #f6f6f6;
+  line-height: 45px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+
+}
+
+.logo-header .search-box-view .email::placeholder {
+  text-indent: 15px;
+  font-weight: lighter;
+  font-size: 15px;
+
+}
+
+
+/* .logo-header .search-box-view .submit {
+  width: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  float: left;
+  background: #7cbcde;
+  color: #f6f6f6;
+  height: 38px;
+  line-height: 45px;
+  text-transform: capitalize;
+  padding-right: 1px;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 8px;
+}
+
+.logo-header .search-box-view .email .submit i {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 2px;
+}
+
+i.fas.fa-search {
+  position: relative;
+  top: -3px;
+} */
+
+/* .header .read-org-app {
+  float: left;
+  display: inline-block;
+} */
+
+
+/* 
+    .header .read-org-app i {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 22px;
+      color: rgb(255, 255, 255);
+      background: transparent;
+      margin-left: -32px;
+  } */
+
+
+
+
+.button {
+  margin-left: 100px;
+}
+
+a.anchor-button {
+  padding: 5px 20px;
+  border: 0px solid;
+  background: #1e2029;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+
+
+
+/* ..................................
+ 01. menu CSS 
+.................................. */
+.menu{
+  border-right: 1px solid #333;
+}
+.menu h5 {
+  color:#82c6e9;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+li.nav-item {
+  font-size: 14px;
+  color: #ffff;
+}
+
+li.nav-item a {
+  color: #ffff;
+  text-transform: capitalize;
+
+}
+li.nav-item a:hover {
+  color: #75badf;
+  transition: .5s;
+  cursor: pointer;
+ 
+}
+
+
+
+/* ..................................
+ 01.manga CSS 
+.................................. */
+
+ #mangas {
+  /* display: flex; */
+  margin-top: 1rem;
+  
+}
+
+
+
+#slider {
+	position: relative;
+	width: 50%;
+	height: 13vw;
+	margin: 12px 290px;
+	/* font-family: 'Helvetica Neue', sans-serif; */
+	perspective: 1400px;
+	transform-style: preserve-3d;
+  }
+  
+  input[type=radio] {
+	position: relative;
+	top: 108%;
+	left: 50%;
+	width: 10px;
+	height: 10px;
+	margin: 0 15px 0 0;
+	opacity: 0.4;
+	transform: translateX(-83px);
+	cursor: pointer;
+  }
+  
+  
+  input[type=radio]:nth-child(5) {
+	margin-right: 0px;
+  }
+  
+  input[type=radio]:checked {
+	opacity: 1;
+  }
+  
+  
+  
+  
+  #slider label,
+  #slider label img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 400ms ease;
+  }
+  
+  
+  
+  /* Slider Functionality */
+  
+  /* Active Slide */
+  #s1:checked ~ #slide1,
+   #s2:checked ~ #slide2,
+	#s3:checked ~ #slide3,
+	 #s4:checked ~ #slide4,
+	  #s5:checked ~ #slide5 {
+	box-shadow: 0 13px 26px rgba(0,0,0, 0.3), 0 12px 6px rgba(0,0,0, 0.2);
+	transform: translate3d(0%, 0, 0px);
+  }
+  
+  /* Next Slide */
+  #s1:checked ~ #slide2,
+   #s2:checked ~ #slide3,
+	#s3:checked ~ #slide4,
+	 #s4:checked ~ #slide5,
+	  #s5:checked ~ #slide1 {
+	box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+	transform: translate3d(20%, 0, -100px);
+  }
+  
+  
+  /* Next to Next Slide */
+  #s1:checked ~ #slide3,
+   #s2:checked ~ #slide4,
+	#s3:checked ~ #slide5,
+	 #s4:checked ~ #slide1,
+	  #s5:checked ~ #slide2 {
+	box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+	transform: translate3d(40%, 0, -250px);
+  }
+  
+  /* Previous to Previous Slide */
+  #s1:checked ~ #slide4,
+   #s2:checked ~ #slide5,
+	#s3:checked ~ #slide1,
+	 #s4:checked ~ #slide2,
+	  #s5:checked ~ #slide3 {
+	box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
+	transform: translate3d(-40%, 0, -250px);
+  }
+  
+  /* Previous Slide */
+  #s1:checked ~ #slide5,
+   #s2:checked ~ #slide1,
+	#s3:checked ~ #slide2,
+	 #s4:checked ~ #slide3,
+	  #s5:checked ~ #slide4 {
+	box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+	transform: translate3d(-20%, 0, -100px);
+  }
+
+
+
+
+
+
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+ .new-manga, .popular-comics, .recently-comics {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}  
+
+.new-mangas-img img {
+    height: 200px;
+    width: 160px;
+    /* width: 100%; */
+}
+
+/* .mangas-img img {
+	height: 200px;
+	width: 250px;
+  }
+   */
+  
+  .mangas-info h5 {
+	color: #fff;
+	font-size: 14px;
+	padding-top: 7px;
+  }
+  
+  
+  .mangas-info span i {
+	font-size: 13px;
+  }
+  
+
+
+
+
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+ .comments-container {
+	margin: 60px auto 15px;
+	width: 768px;
+}
+
+.comments-container h2 {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.comments-container h2 a {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.comments-list {
+	margin-top: 30px;
+	position: relative;
+}
+
+/**
+ * Lineas / Detalles
+ -----------------------*/
+.comments-list:before {
+	content: '';
+	width: 2px;
+	height: 100%;
+  background: #1e2029;
+	position: absolute;
+	left: 32px;
+	top: 0;
+}
+
+.comments-list:after {
+	content: '';
+	position: absolute;
+  background: #1e2029;
+	bottom: 0;
+	left: 27px;
+	width: 7px;
+	height: 7px;
+	border: 3px solid #dee1e3;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.reply-list:before, .reply-list:after {display: none;}
+.reply-list li:before {
+content: '';
+	width: 85px;
+	/* height: 2px; */
+	background: #c7cacb;
+	position: absolute;
+	top: 70px;
+	left: -86px;
+}
+
+
+.comments-list li {
+	margin-bottom: 15px;
+	display: block;
+	position: relative;
+}
+
+.comments-list li:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+}
+
+.reply-list {
+	padding-left: 88px;
+	clear: both;
+	margin-top: 15px;
+}
+/**
+ * Avatar
+ ---------------------------*/
+.comments-list .comment-avatar {
+	width: 65px;
+	height: 65px;
+	position: relative;
+	z-index: 99;
+	float: left;
+	border: 3px solid #FFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+
+.comments-list .comment-avatar img {
+	width: 100%;
+	height: 100%;
+}
+
+.reply-list .comment-avatar {
+	width: 50px;
+	height: 50px;
+}
+
+.comment-main-level:after {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+/**
+ * Caja del Comentario
+ ---------------------------*/
+ .comments-list .comment-box {
+	width: 815px;
+	/* float: right; */
+	position: relative;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.comments-list .comment-box:before, .comments-list .comment-box:after {
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	display: block;
+	border-width: 10px 12px 10px 0;
+	border-style: solid;
+	border-color: transparent #FCFCFC;
+	top: 8px;
+	left: -11px;
+}
+
+.comments-list .comment-box:before {
+	border-width: 11px 13px 11px 0;
+	border-color: transparent rgba(0,0,0,0.05);
+	left: -12px;
+}
+
+.reply-list .comment-box {
+	width: 724px;
+}
+.comment-box .comment-head {
+	background: #c7cacb;
+	padding: 10px 12px;
+	border-bottom: 1px solid #E5E5E5;
+	overflow: hidden;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.comment-box .comment-head i {
+	float: right;
+	margin-left: 14px;
+	position: relative;
+	top: 2px;
+	color: #A6A6A6;
+	cursor: pointer;
+	-webkit-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.comment-box .comment-head i:hover {
+	color: #03658c;
+}
+
+.comment-box .comment-name {
+	color: #283035;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-box .comment-name a {
+	color: #283035;
+}
+
+.comment-box .comment-head span {
+	float: left;
+	color: #999;
+	font-size: 13px;
+	position: relative;
+	top: 1px;
+}
+
+.comment-box .comment-content {
+	background: #FFF;
+	padding: 20px;
+	font-size: 14px;
+	color: #595959;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+.comment-box .comment-name.by-author, .comment-box .comment-name.by-author a {color: #03658c;}
+.comment-box .comment-name.by-author:after {
+	content: 'autor';
+	background: #03658c;
+	color: #FFF;
+	font-size: 12px;
+	padding: 3px 5px;
+	font-weight: 700;
+	margin-left: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/** =====================
+ * Responsive
+ ========================*/
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 480px;
+	}
+
+	.comments-list .comment-box {
+		width: 390px;
+	}
+
+	.reply-list .comment-box {
+		width: 320px;
+	}
+}
+
+
+
+
+/*
+Footer Area Style
+======================================================*/
+.single-footer-widget {
+	margin-bottom: 24px;
+  }
+  
+  .single-footer-widget h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+  }
+  
+  .single-footer-widget ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+  }
+  ul.info-list{
+	  color: #fff;
+  }
+  
+  .single-footer-widget .info-list {
+	margin-bottom: 20px;
+  }
+  
+  .single-footer-widget .info-list li {
+	font-size: 14px;
+	position: relative;
+	padding-left: 4px;
+	margin-bottom: 17px;
+  }
+  
+  .single-footer-widget .info-list li:last-child {
+	margin-bottom: 0;
+  }
+
+
+
+  
+  .single-footer-widget .import-link li {
+	margin-bottom: 10px;
+  }
+  
+  .single-footer-widget .import-link li:last-child {
+	margin-bottom: 0;
+  }
+  
+  .single-footer-widget .app-btn {
+	margin-bottom: 20px;
+  }
+  
+  .single-footer-widget .app-btn li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  .single-footer-widget .app-btn li:last-child {
+	margin-right: 0;
+  }
+  
+  .single-footer-widget .app-btn li a img {
+	max-width: 115px;
+  }
+  
+  /*
+Copy Right Area Style
+======================================================*/
+.copy-right-area {
+	border-top: 1px solid #dddddd;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+  }
+  
+  .copy-right-area p  {
+	color: #ffff;
+  }
+  .copy-right-area p a {
+	color: #fff;
+	font-weight: 600;
+  }
+  
+  .copy-right-area p a:hover {
+	color: #03658c;
+  }
+ 
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* 
+#content .page-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1.5px;
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+} */
+
+
+.ctg-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* padding-top: 239px; */
+}
+
+.ctg-section h1{
+	font-size: 24px;
+
+}
+select#orderby {
+	background-color: black;
+    color: #888;
+    border: 2px solid #a09f9f7e;
+    height: 30px;
+    width: 170px;
+}
+
+.blogs{
+	display: flex;
+}
+.blogs .thumbnail img{
+	max-width: 150px;
+    min-width: 150px;
+    height: 225px;
+    margin: 20px;
+    box-shadow: 0 20px 30px 0 rgb(0 0 0 / 80%);
+}
+.blogs .ctg-info {
+	margin-left: 16px;
+	margin-top: 22px;
+}
+
+.ctg-author{
+	color: #6d7080;
+    margin-top: 0.5rem;
+	font-size: 14px;
+}
+
+
+.media-meta{
+	margin-top: 0;
+    border-width: 0;
+    border-top-width: 1px;
+	border: 1px solid #1e2029;
+}
+
+.media-meta .ui.table {
+    background-color: transparent;
+    color: inherit;
+    border: 0;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+table, th, td {
+	border-style: 1px solid white;
+	border-collapse: collapse;
+  }
+
+.media-meta .ui.celled.table tr td, .media-meta .ui.celled.table tr th{
+	border-color: #1e2029;
+    padding: 13px 20px 15px;
+    transition: none;
+	margin-top: 10px;
+	border-style: none;
+}
+.media-meta .ui.celled.table tr td div:first-child, .media-meta .ui.celled.table tr th div:first-child {
+    color: #6d7080;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.media-meta .ui.celled.table tr td div:last-child, .media-meta .ui.celled.table tr th div:last-child {
+    font-size: 13px;
+    color: #fff;
+}
+
+.filter-results li .poster-with-subject {
+    display: flex;
+}
+/* 
+.ui.celled.table tr td:first-child, .ui.celled.table tr th:first-child {
+    border-right: 1px solid #dddddd;
+	height: 100px;
+} */
+
+.color-imdb {
+	color: goldenrod;
+}
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
