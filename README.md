@@ -1,6 +1,6 @@
-# read-org# 📖 ReadM-Org — Manga Reading Website
+ 📖 ReadM-Org — Manga Reading Website
 
-[ReadM-Org](https://readmeorg.netlify.app/)is a modern, responsive manga reading website built with **HTML5**, **CSS3**, and **Bootstrap 5**.  
+[ReadM-Org](https://readmeorg.netlify.app/) is a modern, responsive manga reading website built with **HTML5**, **CSS3**, and **Bootstrap 5**.  
 It provides a clean and visually appealing layout for manga readers to browse categories, view chapters, and discover popular manga titles.
 
 ---
