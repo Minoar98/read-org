@@ -119,8 +119,8 @@ This project includes a fully responsive design supporting:
 
 ## 📸 Preview
 
-![ReadM Org Homepage Screenshot](img/homepage.png)  
-![Category Page Screenshot](img/category.png)
+![ReadM Org Homepage Screenshot](img/Home.png)  
+![Category Page Screenshot](img/Category.png)
 
 ---
 
