@@ -86,7 +86,7 @@ Bootstrap’s grid helped, but custom CSS was added to improve spacing, image re
 
 - Structuring HTML and CSS in a modular and scalable way for easier maintenance.
 
-## Understanding how user experience (UX) improves when small details like padding, hover effects, and font sizes are consistent across devices
+- Understanding how user experience (UX) improves when small details like padding, hover effects, and font sizes are consistent across devices
 
 ## 🖋️ How to Use
 
