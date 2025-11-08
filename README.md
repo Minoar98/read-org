@@ -92,7 +92,7 @@ Bootstrap’s grid helped, but custom CSS was added to improve spacing, image re
 
 1. **Clone or download** the repository.
    ```bash
-   git clone https://github.com/your-username/readm-org.git
+   git clone https://github.com/Minoar98/readm-org.git
    ```
 2. **Open** `index.html` in any web browser.
 3. Navigate through the site using links to `category.html` and `chapter.html`.
